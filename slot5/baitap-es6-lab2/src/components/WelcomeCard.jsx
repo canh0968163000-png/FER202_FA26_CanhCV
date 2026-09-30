@@ -34,7 +34,7 @@ function WelcomeCard() {
                 <Card.Title>{greeting}</Card.Title>
 
                 <Card.Text>
-                    You are {age} years old and studying {major}.
+                    {`Bạn ${age} tuổi và đang học ngành ${major}.`}
                 </Card.Text>
             </Card.Body>
         </Card>
